@@ -71,9 +71,9 @@
             document.getElementById("language").append(liff.getLanguage())
             document.getElementById("version").append(liff.getVersion())
             document.getElementById("accessToken").append(liff.getAccessToken())
-            document.getElementById("IsInClient").append(liff.getIsInClient())
+            document.getElementById("isInClient").append(liff.getisInClient())
 
-            if (liff.getIsInClient()) {
+            if (liff.getisInClient()) {
                 document.getElementById("btnLogOut").style.display = "none"
             } else {
                 document.getElementById("btnMsg").style.display = "none"
